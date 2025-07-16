@@ -48,19 +48,17 @@
           <li class="nav-item">
             <a class="nav-link" href="/listings/new">Airbnb your home</a>
           </li>
-          <% if(typeof currUser !== 'undefined' && !currUser) { %>
+          <% if (!currUser) { %>
             <li class="nav-item">
               <a class="nav-link" href="/signup"><b>Sign up</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/login"><b>Log in</b></a>
             </li>
-          <% } %>
-          
-          <% if(typeof currUser !== 'undefined' && currUser) { %>
+          <% } else { %>
             <li class="nav-item">
-            <a class="nav-link" href="/logout"><b>Log out</b></a>
-          </li>
+              <a class="nav-link" href="/logout"><b>Log out</b></a>
+            </li>
           <% } %>
         </ul>
       </div>
