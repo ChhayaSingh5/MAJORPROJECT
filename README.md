@@ -1,20 +1,19 @@
 # Travel & Property Listing Platform 
 
-This is a full-stack **travel and accommodation listing platform**, inspired by Airbnb. Users can browse, list, and book places to stay. The project was built as a **major college project** using **Node.js, Express.js, MongoDB**, with a clean and responsive frontend built using **HTML, CSS, and JavaScript**.
+This is a full-stack **travel and accommodation listing platform**, inspired by Airbnb. Users can browse, and list. The project was built using **Node.js, Express.js, MongoDB**, with a clean and responsive frontend built using **HTML, CSS, and JavaScript**.
 
 ---
 
 ##  Features
 
--  Property Listing and Booking
--  User Authentication (Signup/Login)
--  Location-based Search
+-  Property Listing 
+-  User Authentication (Signup/Login) 
 -  Image Upload for Listings 
 -  Fully Responsive Design
 
 ---
 
-## ⚙ Tech Stack
+##  Tech Stack
 
 **Frontend:**
 - HTML
